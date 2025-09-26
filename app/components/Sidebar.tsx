@@ -39,11 +39,7 @@ export default function Sidebar() {
                 Add Service
               </a>
             </li>
-            <li>
-              <a href="/brand" style={{ color: "white", textDecoration: "none" }}>
-                Add Brand
-              </a>
-            </li>
+            {/* Hidden: Add Brand */}
  
             <li>
               <a href="/" style={{ color: "white", textDecoration: "none" }}>
