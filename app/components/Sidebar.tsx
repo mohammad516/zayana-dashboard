@@ -34,13 +34,18 @@ export default function Sidebar() {
                 All Services
               </a>
             </li>
-            <li>
+            <li style={{ marginBottom: "15px" }}>
               <a href="/products" style={{ color: "white", textDecoration: "none" }}>
                 Add Service
               </a>
             </li>
+            <li style={{ marginBottom: "15px" }}>
+              <a href="/dashboard/about" style={{ color: "white", textDecoration: "none" }}>
+                About
+              </a>
+            </li>
             {/* Hidden: Add Brand */}
- 
+
             <li>
               <a href="/" style={{ color: "white", textDecoration: "none" }}>
                 Logout

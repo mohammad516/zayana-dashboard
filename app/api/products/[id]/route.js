@@ -2,7 +2,7 @@ import prisma from '../../../libs/prismadb';
 
 // Update Product API
 export async function PATCH(request, { params }) {
-  const { id } = params;
+  const { id } = await params;
   const {
   title        ,
   description  ,
@@ -41,7 +41,7 @@ export async function PATCH(request, { params }) {
 
 // Delete Product API
 export async function DELETE(request, { params }) {
-  const { id } = params;
+  const { id } = await params;
 
   try {
  
